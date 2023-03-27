@@ -1,0 +1,17 @@
+self.__FONT_LOADER_MANIFEST={
+  "pages": {
+    "/_app": [
+      "static/media/916d3686010a8de2-s.p.woff2",
+      "static/media/376dd8dc38524313-s.p.woff2"
+    ],
+    "/": [
+      "static/media/916d3686010a8de2-s.p.woff2"
+    ],
+    "/works": [
+      "static/media/916d3686010a8de2-s.p.woff2"
+    ]
+  },
+  "app": {},
+  "appUsingSizeAdjust": false,
+  "pagesUsingSizeAdjust": true
+}
