@@ -3,6 +3,7 @@
 "version" :"1.0.0",
 "description" :"Kwame's website",
 "scripts": {
+"dev": "next dev -H 0.0.0.0",
 "predeploy" :"npm run build",
 "deploy" :"gh-pages -d build ",
 "start": "next start",
