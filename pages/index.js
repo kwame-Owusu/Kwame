@@ -7,6 +7,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import NextLink from 'next/link'
 import { BioSection } from '../components/bio'
 import Milestones from './timeline'
+import profile from "/images/contents/profile.jpg"
 import {
     IoLogoGithub,
     IoLogoLinkedin,
