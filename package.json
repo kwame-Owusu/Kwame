@@ -1,0 +1,43 @@
+{
+    "name": "kwame-homepage",
+    "version": "1.0.0",
+    "description": "Kwame's website",
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": " gh-pages -d build",
+        "dev": "next dev -H 0.0.0.0",
+        "build": "next build",
+        "start": "next start",
+        "prettier": "prettier --write .",
+        "lint": "next lint"
+    },
+    "keywords": [],
+    "author": "Kwame Owusu",
+    "license": "MIT",
+    "dependencies": {
+        "@chakra-ui/icons": "^2.0.17",
+        "@chakra-ui/react": "^2.5.1",
+        "@emotion/react": "^11.10.6",
+        "@emotion/styled": "^11.10.6",
+        "@fontsource/open-sans": "^4.5.14",
+        "@fontsource/poppins": "^5.0.8",
+        "@fontsource/raleway": "^4.5.12",
+        "@next/font": "^13.2.3",
+        "framer-motion": "^9.1.7",
+        "gh-pages": "^5.0.0",
+        "next": "^13.2.1",
+        "next-theme": "^0.1.5",
+        "nextjs": "^0.0.3",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-icons": "^4.8.0",
+        "simple-icons": "^8.8.0"
+    },
+    "devDependencies": {
+        "@types/node": "18.15.0",
+        "@types/react": "18.0.28",
+        "eslint": "^8.35.0",
+        "eslint-config-next": "^13.2.1",
+        "prettier": "^2.8.4"
+    }
+}
