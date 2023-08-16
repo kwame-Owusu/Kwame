@@ -64,7 +64,7 @@ const Page = () => {
                 Work
             </Heading>
             <Paragraph> I am Kwame, a computer science student in the UK but originally from Ghana, I have a passion for building all sorts of digital things, 
-                hence the aspiration of becoming a digital Craftsman, I like coding and creating fun things with code, sometimes even solving some mundane problems. 
+                hence the name "digital Craftsman", I like coding and creating fun things with code, sometimes even solving some mundane problems. 
                 </Paragraph>
             <Box align="center" my={3}>
                 <NextLink href="/works">
