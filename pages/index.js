@@ -41,7 +41,7 @@ const Page = () => {
         <Heading as="h1"  variant="page-title">
             Kwame Owusu
         </Heading>
-        <p>Aspiring Digital Craftsman</p>
+        <p>< Digital Craftsman ></p>
         </Box>
         <Box flexShrink={0} 
         mt={{base: 4, md: 0}} 
@@ -64,10 +64,8 @@ const Page = () => {
                 Work
             </Heading>
             <Paragraph> I am Kwame, a computer science student in the UK but originally from Ghana, I have a passion for building all sorts of digital things, 
-                hence the aspiration of becoming a digital Craftsman, I like coding and creating fun things with code, sometimes even solving some mundane problems.
-                I have to admit I am not the best at coding, but with practice and patience i will become decent, it's all part of the process. 
-
-            </Paragraph>
+                hence the aspiration of becoming a digital Craftsman, I like coding and creating fun things with code, sometimes even solving some mundane problems. 
+                </Paragraph>
             <Box align="center" my={3}>
                 <NextLink href="/works">
                     <Button rightIcon={<ChevronRightIcon />} colorScheme="teal" className={Font.className} >
