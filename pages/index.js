@@ -50,10 +50,10 @@ const Page = () => {
         >
             <Image
             borderStyle="solid" 
-            maxWidth="100px" 
+            maxWidth="150px" 
             display="inline-block" 
             borderRadius="full" 
-            src="/images/contents/profile.jpg" 
+            src="/images/contents/profile_2.jpg" 
             alt="profile Image"
             />
         </Box>
