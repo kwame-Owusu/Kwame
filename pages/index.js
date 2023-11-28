@@ -111,7 +111,7 @@ const Page = () => {
                     
                 </ListItem>
                 <ListItem>
-                    <Link href='https://www.instagram.com/ghanianpapi/' target="_blank">
+                    <Link href='https://www.instagram.com/kwm.ows/' target="_blank">
                         <Button variant="ghost" color={useColorModeValue("#22A699", "#AED8CC")} leftIcon={<Icon as={IoLogoInstagram} />} >
                             @Kwame-Owusu
                         </Button>
