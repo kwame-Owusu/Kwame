@@ -40,19 +40,6 @@ const Works = () => {
         <Section delay={0.3}>
           
         <WorkGridItem 
-        id="AI-pong" 
-        title="Snake Game" 
-        thumbnail={snake_img4}
-        >
-            Classic snake game 
-            
-          </WorkGridItem>
-          
-        </Section>
-
-        <Section delay={0.3}>
-          
-        <WorkGridItem 
         id="Pomodoro" 
         title="Pomodoro GUI" 
         thumbnail={pomodoro}

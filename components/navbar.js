@@ -83,10 +83,7 @@ const Navbar = props => {
                 <LinkItem href="/works" path={path}>
                     Works
                 </LinkItem>
-                <LinkItem href="/uses" path={path}>
-                    Tech
-                </LinkItem>
-                <LinkItem href="https://github.com/kwame-Owusu" path={path} target="_blank">
+                <LinkItem href="https://github.com/kwame-Owusu/Kwame" path={path} target="_blank">
                     Source
                 </LinkItem>
                 
@@ -108,7 +105,6 @@ const Navbar = props => {
                                 {/* in case of error remove the menu link const and revert back to using Link */}
                 <MenuItem as={Link} href={"/"}>About</MenuItem>
                 <MenuItem as={Link}  href={"/works"}>Works</MenuItem>
-                <MenuItem as={Link} href={Link}>Tech</MenuItem>
                 <MenuItem  as={Link} href="https://github.com/kwame-Owusu">Source</MenuItem>
                 
                 </MenuList>
