@@ -7,8 +7,7 @@ import Layout from "../components/layouts/article"
 
 
 import flappy1 from "../public/images/works/flappy1.jpg"
-import snake_img4 from "../public/images/works/snake_img1.png"
-import pomodoro from "../public/images/works/pomodoro.jpg"
+import pomodoro_2 from "../public/images/works/pomodoro_2.png"
 
 
 const Font = Poppins ({
@@ -42,7 +41,7 @@ const Works = () => {
         <WorkGridItem 
         id="Pomodoro" 
         title="Pomodoro GUI" 
-        thumbnail={pomodoro}
+        thumbnail={pomodoro_2}
         >
             Pomodoro Timer
             

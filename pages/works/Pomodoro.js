@@ -1,12 +1,12 @@
 import { Container, Badge, Link, LinkItem, List, ListItem} from "@chakra-ui/react"
 import { ExternalLinkIcon } from "@chakra-ui/icons"
-import { Title, WorkImage, Meta} from "../../components/work"
+import { Title,Meta} from "../../components/work"
 import P from "../../components/paragraph"
 import Layout from "../../components/layouts/article"
 
 const Work = () => {
     return (
-        <Layout title="AI-project">
+        <Layout title="Pomodoro">
             <Container>
                 <Title>
                     Pomodoro Timer<Badge>2023</Badge>
@@ -24,7 +24,7 @@ const Work = () => {
                     <Meta>Stack</Meta> Python(Tkinter, Customtkinter, Auto-to-py.exe)
                 </ListItem>
                 </List>
-                <WorkImage  src="/images/works/pomodoro_gif.gif" alt="AI-project" />
+                <video src="/images/pomodoro_demo.mp4" width="500" height="300" controls="controls" autoplay="true" id="pomodoro-gui"/>
             </Container>
         </Layout>
     )
