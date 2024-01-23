@@ -7,7 +7,7 @@ import NextLink from 'next/link'
 const Footer = () => {
   return (
     <Box align="center" opacity={0.4} fontSize="sm">
-      &copy; {new Date().getFullYear()} Kwame Owusu. Design by Takuya Matsuyama.
+      &copy; {new Date().getFullYear()} Kwame Owusu. Theme by Takuya Matsuyama.
     </Box>
   )
 }
