@@ -9,7 +9,7 @@ const Work = () => {
         <Layout title="Pomodoro">
             <Container>
                 <Title>
-                    Pomodoro Timer<Badge>2023</Badge>
+                    Pomodoro Timer<Badge>2024</Badge>
                 </Title>
                 <P>
                     A timer that uses the pomodoro principle for study, i also included a selection of lofi music and white noise such as rain, to help concentrate.

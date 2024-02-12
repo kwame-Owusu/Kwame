@@ -4,11 +4,8 @@ import {  Poppins  } from '@next/font/google'
 import  { WorkGridItem } from '../components/grid-item'
 import Layout from "../components/layouts/article"
 
-
-
-import flappy1 from "../public/images/works/flappy1.jpg"
-import pomodoro_2 from "../public/images/works/pomodoro_2.png"
-
+import pomodoro from "../public/images/works/pomodoro.png"
+import PM_thumb from "../public/images/works/PM_thumb.png"
 
 const Font = Poppins ({
   subsets: ['latin'],
@@ -28,24 +25,23 @@ const Works = () => {
         
         <Section >
           <WorkGridItem 
-          id="AI-project" 
-          title="Flappy Bird AI Project" 
-          thumbnail={flappy1}
+          id="PM" 
+          title="Password Manager" 
+          thumbnail={PM_thumb}
           >
-            python AI tutorial project.
           </WorkGridItem>
           
         </Section>
         <Section delay={0.3}>
+        
           
         <WorkGridItem 
         id="Pomodoro" 
         title="Pomodoro GUI" 
-        thumbnail={pomodoro_2}
+        thumbnail={pomodoro}
         >
-            Pomodoro Timer
             
-          </WorkGridItem>
+        </WorkGridItem>
           
         </Section>
 
