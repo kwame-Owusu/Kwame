@@ -24,7 +24,7 @@ const ThemeToggleButton = () => {
         onClick={toggleColorMode}
         ></IconButton>
         </motion.div>
-        
+
         </AnimatePresence>
 
     )
